@@ -1,0 +1,59 @@
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+    
+}
+
+
+body {
+    background-color: #5281ce ;
+  }
+  .wrapper {
+    
+    width: auto;
+    height: auto;
+    position: center;
+    background-color: #f4f4f4;
+    display: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 400px;
+  }
+  .block {
+
+    animation: appear linear;
+    animation-timeline: view() ;
+    animation-range: entry 0% cover 40%;
+
+
+
+    width: 250px;
+    height: 250px;
+    color: blanchedalmond;
+    background-color: #eb3b5a;
+    margin: 20px;
+    align-items: center;
+    justify-items: auto;
+    
+  }
+  .title {
+      
+      color: antiquewhite;
+     position: center;
+     margin: 400px;
+     font-size: larger;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifx;
+  }
+
+  .contx {
+    justify-items: auto;
+    width: auto;
+    height: auto;
+  }
